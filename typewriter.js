@@ -1,4 +1,4 @@
-const sentence = "hello there from lighthouse labs";
+const sentence = "hello there from lighthouse labs\n";
 // const timeout = function(char, time) {
 //   setTimeout(() => {
 //     process.stdout.write(char);
@@ -17,6 +17,6 @@ for (let i = 0; i < sentence.length; i++) {
   }, i * 50);
 }
 
-setTimeout(() => {
-  console.log();
-}, sentence.length * 50);
+// setTimeout(() => {
+//   console.log();
+// }, sentence.length * 50);
